@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+void main()
+{
+    int base;
+    int power;
+    int loop=0;
+    int a;
+    
+    printf("Base\n");
+    scanf("%d",&base);
+    printf("power\n");
+    scanf("%d",&power);
+    a=1;
+    while(loop<power)
+    {
+        a=a*base;
+        loop++;
+        
+    }
+    
+    printf("Answer= %d",a);
+
+    
+}
